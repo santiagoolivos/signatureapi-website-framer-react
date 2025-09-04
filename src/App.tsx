@@ -7,7 +7,7 @@ import Pricing from './pages/Pricing'
 
 export default function App() {
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router>
       <div className='flex flex-col items-center gap-3 bg-[rgb(249,_249,_249)]'>
         <TopNavFramerComponent.Responsive/>
         
