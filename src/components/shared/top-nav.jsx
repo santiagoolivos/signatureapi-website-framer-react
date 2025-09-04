@@ -4516,7 +4516,7 @@ var Component5 = /* @__PURE__ */ React5.forwardRef(function (props, ref) {
 									</motion5.a>
 								</Link5>
 								<Link5
-									href={"https://signatureapi.com/pricing"}
+									href={"/pricing"}
 									motionChild={true}
 									nodeId={"WEYJOOTPw"}
 									openInNewTab={false}
