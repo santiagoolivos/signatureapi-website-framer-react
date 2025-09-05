@@ -8,7 +8,7 @@ import Pricing from './pages/Pricing'
 export default function App() {
   return (
     <Router>
-      <div className='flex flex-col items-center bg-[rgb(249,_249,_249)] relative w-full'>
+      <div className='flex flex-col items-center bg-[rgb(249,_249,_249)]'>
         <TopNavFramerComponent.Responsive/>
         
         <Routes>
@@ -17,7 +17,7 @@ export default function App() {
         </Routes>
         
         <div className='flex flex-col items-center w-full justify-center bg-[rgb(24,_24,_27)]'>
-          <FooterFramerComponent.Responsive/>
+          <FooterFramerComponent.Responsive />
         </div>
       </div>
     </Router>
